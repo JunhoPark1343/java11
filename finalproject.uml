@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jI6mIGGwEey3aY0x7yZhug" name="finalproject">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_jMCyoGGwEey3aY0x7yZhug">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_wIVC4GGwEey3aY0x7yZhug" name="Coordinate">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vWQlYGGzEey3aY0x7yZhug" name="makeSnakeList"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2fOzMGGzEey3aY0x7yZhug" name="initUI"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_20XVsGGzEey3aY0x7yZhug" name="startTimer"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3LT2EGGzEey3aY0x7yZhug" name="setKeyListener"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3TsWAGGzEey3aY0x7yZhug" name="makeJewel"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_XSwlkGGyEey3aY0x7yZhug" name="panelNorth : JPanel"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_d9sMgGGyEey3aY0x7yZhug" name="panelCenter : JPanel"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_eoSosGGyEey3aY0x7yZhug" name="labelTitle : JLabel"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_hRUgcGGyEey3aY0x7yZhug" name="labelMessage : JLabel"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_h9PyUGGyEey3aY0x7yZhug" name="panels : JPanel"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_iFnEIGGyEey3aY0x7yZhug" name="map : int"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_iJ68YGGyEey3aY0x7yZhug" name="snake : LinkedList&lt;Coordinate>"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_iOIuAGGyEey3aY0x7yZhug" name="dir : int"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_iV4UwGGyEey3aY0x7yZhug" name="score : int"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_iZJEIGGyEey3aY0x7yZhug" name="time : int"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_ibzWkGGyEey3aY0x7yZhug" name="timecount : int"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_iffjwGGyEey3aY0x7yZhug" name="timer : Timer"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xdCWkGGxEey3aY0x7yZhug" name="MyFrame">
+    <generalization xmi:type="uml:Generalization" xmi:id="_O1oWUGG0Eey3aY0x7yZhug" general="_In3zkGG0Eey3aY0x7yZhug"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zOYYYGGxEey3aY0x7yZhug" name="SnakeGame"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Gi9VgGG0Eey3aY0x7yZhug" client="_wIVC4GGwEey3aY0x7yZhug" supplier="_xdCWkGGxEey3aY0x7yZhug"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_In3zkGG0Eey3aY0x7yZhug" name="JFrame"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_WwWKIGG0Eey3aY0x7yZhug" client="_xdCWkGGxEey3aY0x7yZhug" supplier="_zOYYYGGxEey3aY0x7yZhug"/>
+</uml:Model>
